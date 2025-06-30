@@ -1,0 +1,20 @@
+.bg-h1 {
+    background-color: #f0ebd8;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.h-vh {
+    height: 100vh;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}

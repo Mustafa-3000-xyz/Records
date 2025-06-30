@@ -1,0 +1,38 @@
+.table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+}
+
+.table thead td {
+    border-radius: 22px 22px 0 0;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.table tbody td {
+    background-color: #ebebeb;
+    padding: 12px;
+    transition: .3s;
+}
+
+.table tbody tr:hover td {
+    background-color: #98aecb;
+}
+
+#editing_btn:hover, #thumbtack_btn:hover, #delete_btn:hover{
+    color: white;
+}
+
+#editing_btn:hover {
+    background-color: green !important;
+}
+
+#thumbtack_btn:hover {
+    background-color: deepskyblue !important;
+}
+
+#delete_btn:hover {
+    background-color: crimson !important;
+}
