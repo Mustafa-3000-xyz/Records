@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 dist
 out
-fontawesome-free-6.7.2-web
 dist-ssr
 *.local
 
